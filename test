@@ -1620,7 +1620,7 @@ function library:Init()
 	end
 	self.base.Parent = game:GetService"CoreGui"
 	self.base.ResetOnSpawn = false
-	self.base.Name = "uwuware"
+	self.base.Name = "ToraScript"
 	
 	self.cursor = self.cursor or self:Create("Frame", {
 		ZIndex = 100,
